@@ -10,6 +10,7 @@ Possible feature additions:
 
 Current Issues:
 This implementation is inefficient, and lag is noticeable once blocks start piling up.
+
 Optimizations include
 * only updating player controlled blocks
 * only obtaining data for all blocks when new blocks become solid, instead of every update
